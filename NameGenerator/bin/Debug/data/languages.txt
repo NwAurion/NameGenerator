@@ -1,0 +1,3 @@
+ja, Japanese
+de, German
+en, English

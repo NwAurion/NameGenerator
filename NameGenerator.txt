@@ -1,0 +1,65 @@
+v0.1 - 22.05.2015 
+    
+   Erstellung
+
+   
+v0.2 - 24.05.2015
+   
+   Erste funktionsfähige Version
+
+   
+v0.3  25.04.2015
+  
+   Überarbeitung GUI, Auswahl mehrerer Sprachen/zufällige Sprache (in progress)
+
+   
+v.04   30.05.2015
+
+   Überarbeitung Datenkonzept - Anzahl der Dateien die benötigt werden verringert
+   Überarbeitung Model - Datenquelle, Darstellung und eigentliche Logik getrennt
+      
+
+v.05   01.06.2015
+
+   Neues Datenkonzept und Model vollends umgesetzt. Datenkonzept entspricht nun mehr dem wie es in einer DB wäre.
+   Datenquelle wird nur das Interface verwendet, kann also leicht ausgetauscht werden
+   GUI-Klassen übernehmen nun keine Logik (außer natürlich die Daten weiterreichen).
+   "Generator" als zentrale Klasse. Hier werden etwa die verfügbaren Sprachen und die geladenen Namen gespeichert.
+   "NameObject" für die Speicherung eines Namens mit Sprache, Geschlecht und dem Namen selbst, so dass diese Zuordnung nicht verloren gehen kann
+
+   
+v.06   02.06.15
+   
+   Set statt List zur Speicherung der Namen -> manuelle Überprüfung doppelter Einträge nicht notwendig
+   Neuer Button um mehrere Namen auf einmal zu generieren - derzeit 20
+   
+   
+v.07   06.06.15   
+   
+   SQLite-Datenbank als Datenquelle statt Textfiles (wobei sich das leicht wechseln lässt).
+   DataManager-Fenster zum anzeigen (zukünftig auch verwalten) der Namen und Sprachen.
+
+ToDo:
+  
+  Klasse "Generator" enthält nun die Logik und speichert die Daten (Sprachen, verfügbare Namen).
+  Problem: Wie die entsprechenden Variablen an die GUI binden? Funktioniert derzeit irgendwie nicht.
+  Normales Property scheint nicht zu reichen wenn in ein einer anderen Klasse ist..oder man muss noch Path oder sowas korrekt setzen.
+  
+  Es funktioniert wenn man in OptionsWindow ein Property hat, das auf das Property in Generator gesetzt ist..aber finde ich irgendwie doof. Bestimmt kein guter Stil,
+  gibt sicher andere Möglichkeiten..
+  
+
+  Japanisch Kanji -> Generierung der Namen noch verbessern? Aber dazu müsste ich wohl die Regeln kennen nach denen Kanji kombiniert werden können,
+                     falls es hier welche gibt, und nicht tatsächlich wirklich alles möglich ist - nur meist nicht verwendet, da es wenig Sinn macht.
+                     Aber dann gäbe es ja immer noch "macht Sinn" oder "macht kein Sinn" -> Unterscheidung wie?
+   
+                     Die Frage ist ja auch, ob die strikt nach Vor/Nachname unterscheiden, oder ob das auch mehr Gefühl ist oder eben typische Wörter
+                     die als Vornamen, und typische Wörter die als Nachname verwendet werden gibt. Ich mein, es *gibt* typische Vor/Nachnamen, aber wenn nun jemand
+                     eben für nen Anime sich Charaktere ausdenkt, und er nicht nur klassische Namen verwenden will, also wie z.B. bei Bleach, da hat sich Tite Kubo ja auch
+                     Namen ausgedacht. Kuchiki findet man auf Anhieb sonst nicht so, heißt aber "decaying log" oder so. Unohana ist eigentlich "Un o hana" oder so, würde man normal nicht zusammen schreiben wenn ich das richtig verstanden habe. Da musste der sich ja auch überlegen "kann man das als Vornamen nehmen" oder so, wenn es da regeln gibt.
+
+
+ Erweiterung Japanisch
+
+   Tabelle Kanji? Gibt es "männliche" oder "weibliche" Kanji? Und "Vornamen-Kanji" und "Nachnamen-Kanji"? Wohl eher nicht.
+     
