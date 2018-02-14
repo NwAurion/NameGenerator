@@ -1,8 +1,8 @@
-﻿using System;
+﻿using NameGenerator.datasource;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using NameGenerator.datasource;
 
 namespace NameGenerator.model
 {
@@ -23,8 +23,8 @@ namespace NameGenerator.model
 
         public Generator()
         {
-            //nameSource = new SQLiteSource();
-            NameSource = new TextFileSource();
+            NameSource = new SQLiteSource();
+            //NameSource = new TextFileSource();
 
             worker.DoWork += worker_DoWork;
             worker.RunWorkerCompleted += worker_RunWorkerCompleted;

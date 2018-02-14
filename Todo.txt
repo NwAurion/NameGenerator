@@ -1,0 +1,24 @@
+ToDo:
+  
+  Klasse "Generator" enth? nun die Logik und speichert die Daten (Sprachen, verfügbare Namen).
+  Problem: Wie die entsprechenden Variablen an die GUI binden? Funktioniert derzeit irgendwie nicht.
+  Normales Property scheint nicht zu reichen wenn in ein einer anderen Klasse ist..oder man muss noch Path oder sowas korrekt setzen.
+  
+  Es funktioniert wenn man in OptionsWindow ein Property hat, das auf das Property in Generator gesetzt ist..aber finde ich irgendwie doof. Bestimmt kein guter Stil,
+  gibt sicher andere M??chkeiten..
+  
+
+  Japanisch Kanji -> Generierung der Namen noch verbessern? Aber dazu m??e ich wohl die Regeln kennen nach denen Kanji kombiniert werden k??n,
+                     falls es hier welche gibt, und nicht tats?lich wirklich alles m??ch ist - nur meist nicht verwendet, da es wenig Sinn macht.
+                     Aber dann g? es ja immer noch "macht Sinn" oder "macht kein Sinn" -> Unterscheidung wie?
+   
+                     Die Frage ist ja auch, ob die strikt nach Vor/Nachname unterscheiden, oder ob das auch mehr Gef??ist oder eben typische W??r
+                     die als Vornamen, und typische W??r die als Nachname verwendet werden gibt. Ich mein, es *gibt* typische Vor/Nachnamen, aber wenn nun jemand
+                     eben f??en Anime sich Charaktere ausdenkt, und er nicht nur klassische Namen verwenden will, also wie z.B. bei Bleach, da hat sich Tite Kubo ja auch
+                     Namen ausgedacht. Kuchiki findet man auf Anhieb sonst nicht so, hei? aber "decaying log" oder so. Unohana ist eigentlich "Un o hana" oder so, w?? man normal nicht zusammen schreiben wenn ich das richtig verstanden habe. Da musste der sich ja auch ??legen "kann man das als Vornamen nehmen" oder so, wenn es da regeln gibt.
+
+
+ Erweiterung Japanisch
+
+   Tabelle Kanji? Gibt es "m?liche" oder "weibliche" Kanji? Und "Vornamen-Kanji" und "Nachnamen-Kanji"? Wohl eher nicht.
+     

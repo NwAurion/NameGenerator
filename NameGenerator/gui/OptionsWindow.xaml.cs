@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using NameGenerator.datamanager;
+using NameGenerator.model;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using NameGenerator.model;
 
-namespace NameGenerator.datamanager
+namespace NameGenerator.GUI
 {
     /// <summary>
     /// Interaktionslogik für OptionsWindow.xaml

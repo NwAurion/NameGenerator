@@ -1,5 +1,5 @@
-﻿using System.Windows;
-using NameGenerator.model;
+﻿using NameGenerator.model;
+using System.Windows;
 
 namespace NameGenerator
 {

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Workspaces\Visual Studio\NameGenerator\NameGenerator\obj\x86\Debug\
+G:\Workspaces\Visual Studio\NameGenerator\NameGenerator\obj\x86\Debug\
 NameGenerator
 none
 false
 DEBUG;TRACE
-D:\Workspaces\Visual Studio\NameGenerator\NameGenerator\App.xaml
+G:\Workspaces\Visual Studio\NameGenerator\NameGenerator\App.xaml
 3240158331
 
-15-922838243
-141402894832
+151533040285
+14-2025955244
 datamanager\DataManager.xaml;gui\OptionsWindow.xaml;MainWindow.xaml;
 
 False
